@@ -38,8 +38,8 @@ init_constants() {
     readonly VERSION=3.15.0
 
     # ACPI related constants
-    readonly ACPI_WRITE_COMMAND='\_SB.PCI0.LPCB.EC0.WRAM' # write to ACPI
-    readonly ACPI_READ_COMMAND='\_SB.PCI0.LPCB.EC0.RRAM' # read from ACPI
+    readonly ACPI_WRITE_COMMAND='\_SB.PC00.LPCB.EC0.WRAM' # write to ACPI
+    readonly ACPI_READ_COMMAND='\_SB.PC00.LPCB.EC0.RRAM' # read from ACPI
 }
 
 # DESCRIPTION:
